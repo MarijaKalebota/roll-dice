@@ -1,5 +1,7 @@
-from flask import Flask
 import random
+
+from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,4 +14,8 @@ def index():
 
 @app.route('/roll/<die_size>')
 def roll_size(die_size):
-    return str(random.randint(1, int(die_size)))
+    try:
+        return str(random.randint(1, int(die_size)))
+    except:
+        return "There was an error! Make sure you are inputting the size of the die as a number."
+
