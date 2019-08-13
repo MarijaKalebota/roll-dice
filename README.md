@@ -13,3 +13,9 @@ python3 -m pip install -r requirements.txt --user
 ```bash
 python3 -m flask run
 ```
+
+## Test
+
+```bash
+python3 -m pytest
+```
