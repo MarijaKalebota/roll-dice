@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
+# Distribution / packaging - Python
 .Python
 build/
 develop-eggs/
@@ -24,6 +24,11 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Distribution / packaging - Java
+spring-boot/bin/
+spring-boot/target/
+spring-boot/.project
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -104,5 +109,5 @@ venv.bak/
 .mypy_cache/
 
 # IDEs
-.idea
-.vscode
+flask/.idea
+flask/.vscode
