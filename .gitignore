@@ -109,5 +109,6 @@ venv.bak/
 .mypy_cache/
 
 # IDEs
+.idea
 flask/.idea
 flask/.vscode
