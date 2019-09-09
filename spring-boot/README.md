@@ -8,5 +8,7 @@
 ## Run
 
 ```bash
-mvn package && java -jar target/gs-spring-boot-0.1.0.jar
+mvn package && java -jar target/roll-dice-0.1.0.jar
 ```
+
+The application should now be running on http://localhost:8080/.
