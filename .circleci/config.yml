@@ -33,7 +33,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             #1pip install -r requirements.txt
-            python3 -m pip install -r flask/requirements.txt
+            python3 -m pip install -r flask-app/requirements.txt
 
 
       - save_cache:
